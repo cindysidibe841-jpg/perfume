@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact | MyPerfume</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">My<span>Perfume</span></a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-header">
+  <span class="section-label">Get in Touch</span>
+  <h1 class="section-title">Visit Our Atelier</h1>
+</div>
+
+<section>
+  <p class="lead" style="max-width:600px;">
+    Located in the heart of Nairobi. Book a private consultation and discover your bespoke fragrance.
+  </p>
+
+  <div class="contact-wrap">
+    <div class="contact-info">
+      <p><strong>Address:</strong> Kimathi Street, Nairobi CBD, Kenya</p>
+      <p><strong>Email:</strong> hello@myperfume.co.ke</p>
+      <p><strong>Phone:</strong> +254 700 123 456</p>
+      <p><strong>Hours:</strong> Mon – Sat, 9:00 AM – 6:00 PM</p>
+      <a href="mailto:hello@myperfume.co.ke" class="btn-gold" style="opacity:1; animation:none;">
+        hello@myperfume.co.ke
+      </a>
+    </div>
+
+    <form class="contact-form" onsubmit="return false;">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us what you're looking for..."></textarea>
+      </div>
+      <button type="submit" class="btn-gold" style="opacity:1; animation:none;">Send Message</button>
+    </form>
+  </div>
+
+  <div class="map-embed">
+    <iframe
+      src="https://www.google.com/maps?q=Nairobi%20CBD%2C%20Kenya&output=embed"
+      title="MyPerfume Atelier Location"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-logo">MyPerfume</span>
+  &copy; 2026 MyPerfume Atelier, Nairobi · All rights reserved
+</footer>
+
+</body>
+</html>
